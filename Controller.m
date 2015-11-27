@@ -2,7 +2,7 @@
      File: Controller.m
  Abstract: The controller class, which implements the object used to control and initialize this
  application and as the NSToolbar delegate.
-  Version: 1.1
+  Version: 1.2
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -288,7 +288,6 @@
 //--------------------------------------------------------------------------------------------------
 - (BOOL)validateMenuItem:(NSMenuItem *)menuItem
 {
-    NSLog(@"%ld", fontStylePicked);
     // find out which menu item we are attempting to update by examining it's action selector
     //
     if ([menuItem action] == @selector(changeFontStyle:))
@@ -436,7 +435,7 @@
                                         nil];
     // note:
     // that since our toolbar is defined from Interface Builder, an additional separator and customize
-    // toolbar items will be automatically added to the "allowed" list of items.
+    // toolbar items will be automatically added to the "default" list of items.
 }
 
 @end

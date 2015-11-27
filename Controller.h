@@ -2,7 +2,7 @@
      File: Controller.h
  Abstract: The controller class, which implements the object used to control and initialize this
  application and as the NSToolbar delegate.
-  Version: 1.1
+  Version: 1.2
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
